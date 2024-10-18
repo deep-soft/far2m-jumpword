@@ -12,7 +12,7 @@ target_link_libraries(jumpword)
 target_compile_definitions(jumpword PRIVATE -DWINPORT_DIRECT -DUNICODE -DFAR_DONT_USE_INTERNALS)
 
 target_include_directories(jumpword PRIVATE .)
-target_include_directories(jumpword PRIVATE ../far2m/far2sdk)
+target_include_directories(jumpword PRIVATE ../far/far2sdk)
 target_include_directories(jumpword PRIVATE ../WinPort)
 
 set_target_properties(jumpword 
